@@ -59,5 +59,5 @@ The leader and every validator independently fetch the live source and run AI ju
 
 ## Links
 
-- Live app: pending
-- GitHub repository: pending
+- Live app: https://grantglow-genlayer.vercel.app
+- GitHub repository: https://github.com/Richardweb1/grantglow.genlayer

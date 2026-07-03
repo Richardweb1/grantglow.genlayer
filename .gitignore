@@ -5,3 +5,5 @@ dist/
 *.log
 *.tsbuildinfo
 __pycache__/
+
+.vercel
