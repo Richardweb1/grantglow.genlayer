@@ -40,14 +40,7 @@ Source: [`contracts/grant_glow.py`](contracts/grant_glow.py)
 - Execution trace: `result_code = 0`, empty `stderr`, no revert
 - Finalized state: `UNCLEAR`, check count `1`
 
-## Local development
 
-```bash
-npm install
-npm run typecheck
-npm run build
-npm run dev
-```
 
 Copy `.env.example` to `.env` only after deployment and set `VITE_CONTRACT_ADDRESS` to the new Bradbury contract.
 
@@ -60,4 +53,4 @@ The leader and every validator independently fetch the live source and run AI ju
 ## Links
 
 - Live app: https://grantglow-genlayer.vercel.app
-- GitHub repository: https://github.com/Richardweb1/grantglow.genlayer
+
