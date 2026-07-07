@@ -16,7 +16,7 @@ const checks = [
   ["frontend writes review_grant", app.includes('functionName: "review_grant"')],
   ["frontend reads get_dashboard", app.includes('functionName: "get_dashboard"')],
   ["frontend renders history panel", app.includes("STORED REVIEW HISTORY")],
-  ["README documents milestone scope", readme.includes("Milestone upgrade")],
+  ["README documents v2 scope", readme.includes("What changed in v2")],
 ] as const;
 
 const failed = checks.filter(([, passed]) => !passed);
