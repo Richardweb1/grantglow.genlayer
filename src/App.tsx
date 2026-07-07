@@ -20,7 +20,7 @@ import { TransactionHashVariant } from "genlayer-js/types";
 
 const CHAIN_ID_HEX = "0x107d";
 const EXPLORER = "https://explorer-bradbury.genlayer.com";
-const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS ?? "0xbb6FF3B4899c5bEeFF70a3839604E650bF4cB2AE";
+const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS ?? "0x246BCA74fb7F7E6BA697A69a7Cf6DEe11A25d20D";
 const DEFAULT_URL = "https://test-server.genlayer.com/static/genvm/hello.html";
 const LIFECYCLE = ["PENDING", "PROPOSING", "COMMITTING", "REVEALING", "ACCEPTED", "FINALIZED"];
 

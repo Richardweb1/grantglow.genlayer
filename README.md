@@ -72,19 +72,19 @@ The React app is now a funding operations dashboard:
 
 ## Network
 
-Current deployed v1 contract:
+Current deployed v2 contract:
 
 - Network: GenLayer Bradbury Testnet
 - Chain ID: `4221`
 - RPC: `https://rpc-bradbury.genlayer.com`
 - Explorer: `https://explorer-bradbury.genlayer.com`
-- Contract address: `0xbb6FF3B4899c5bEeFF70a3839604E650bF4cB2AE`
-- Contract explorer: https://explorer-bradbury.genlayer.com/address/0xbb6FF3B4899c5bEeFF70a3839604E650bF4cB2AE
-- Deployment transaction: `0xca12491fc6207a0370c44987c9a9e3e5e12ab87c5fb01052a78a6796051b345f`
-- Verified contract call: `0x5faa2df708cf70cbfbe68a2659f7aed792d0a6d1078de686880d726f72611686`
+- Contract address: `0x246BCA74fb7F7E6BA697A69a7Cf6DEe11A25d20D`
+- Contract explorer: https://explorer-bradbury.genlayer.com/address/0x246BCA74fb7F7E6BA697A69a7Cf6DEe11A25d20D
+- Deployment transaction: `0x3d0d1cc8bbae569eb2cc1a9e7ecc4b4a24aa690b175a99da9d56dbe5b6e6b4f9`
+- Deployment explorer: https://explorer-bradbury.genlayer.com/tx/0x3d0d1cc8bbae569eb2cc1a9e7ecc4b4a24aa690b175a99da9d56dbe5b6e6b4f9
 - Live app: https://grantglow-genlayer.vercel.app
 
-After deploying the v2 contract in GenLayer Studio, set `VITE_CONTRACT_ADDRESS` to the new Bradbury address and run several real funding reviews so the dashboard/history panels show fresh milestone evidence.
+Run several real funding reviews from the frontend so the dashboard/history panels show fresh milestone evidence for this v2 deployment.
 
 ## Local development
 
