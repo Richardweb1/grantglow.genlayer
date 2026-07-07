@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "typecheck": "tsc -b --pretty false",
-    "schema:check": "tsx scripts/check-schema.ts"
+    "schema:check": "tsx scripts/check-schema.ts",
+    "milestone:check": "tsx scripts/milestone-check.ts"
   },
   "dependencies": {
     "genlayer-js": "1.1.8",
